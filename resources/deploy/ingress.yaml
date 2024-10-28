@@ -5,7 +5,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-    - host: cncamp.com
+    - host: ktihung.com
       http:
         paths:
           - backend:
@@ -17,5 +17,5 @@ spec:
             pathType: Prefix
   tls:
     - hosts:
-        - cncamp.com
+        - ktihung.com
       secretName: http-server-tls
